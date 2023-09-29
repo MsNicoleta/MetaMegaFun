@@ -28,7 +28,7 @@ const Explore = () => {
         {/* render the typing text effect component   */}
         <TitleText title={<> Choose the world you want <br className="md:block hidden" /> to explore </>} textStyles="text-center" />
         {/* render the explore card component for the   */}
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5]">
+        <div className="mt-[50px] flex lg:flex-row flex-col gap-5 min-h-[70vh] ]">
           {/* Mapping through an array of 'exploreWorlds' */}
           {exploreWorlds.map((world, index) => (
             <ExploreCard
