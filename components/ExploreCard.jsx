@@ -20,7 +20,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     ) : (
       <div>
         <div>
-
+          <img src='/headset.svg' />
         </div>
       </div>
     )}
