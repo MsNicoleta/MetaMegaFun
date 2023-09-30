@@ -14,7 +14,7 @@ const GetStarted = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex ls:flex-row flex-col gap-8`}
+      className={`${styles.innerWidth} flex mx-auto  sm:flex-row flex-col gap-8`}
     >
       {/* Left column with an image */}
       <motion.div
@@ -29,7 +29,7 @@ const GetStarted = () => (
       {/* Right column with text content */}
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)} // Animation variants for fading in
-        className=" flex flex-[0.75] flex justify-center flex-col"
+        className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| How MetaMegaFun Works" /> {/* Typing animation */}
         <TitleText title={<>Get Started with just a few clicks</>} /> {/* Title text */}
@@ -38,12 +38,13 @@ const GetStarted = () => (
             // Mapping over starting features to display them
             <StartSteps
               key={feature}
-              number={feature + 1}
+              number={index + 1}
               text={feature}
             />
           ))}
         </div>
       </motion.div>
+
     </motion.div>
   </section>
 );
