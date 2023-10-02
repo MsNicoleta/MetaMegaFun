@@ -17,35 +17,35 @@ const WhatsNew = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} flex mx-auto  sm:flex-row flex-col gap-8`}
     >
-      {/* Left column with an image */}
-      <motion.div
-        variants={planetVariants('left')} // Animation variants for the planet
-        className={`flex-1 ${styles.flexCenter}`}
-      >
-        <img src='/get-started.png' // Image source
-          alt='get-started'
-          className='w-[90%] h-[90%] object-contain'
-        />
-      </motion.div>
+
       {/* Right column with text content */}
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)} // Animation variants for fading in
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How MetaMegaFun Works" /> {/* Typing animation */}
-        <TitleText title={<>Get Started with just a few clicks</>} /> {/* Title text */}
-        <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px]'>
-          {startingFeatures.map((feature, index) => (
+        <TypingText title="| What's new  " /> {/* Typing animation */}
+        <TitleText title={<>What's new about MetaMegaFun</>} /> {/* Title text */}
+        <div className='mt-[48px] flex flex-wrap justify-between gap-[24px]'>
+          {newFeatures.map((feature) => (
             // Mapping over starting features to display them
-            <StartSteps
-              key={feature}
-              number={index + 1}
-              text={feature}
+            <NewFeatures
+              key={feature.title}
+              {...feature}
             />
           ))}
         </div>
       </motion.div>
-
+      {/* Left column with an image */}
+      <motion.div
+        variants={planetVariants('right')} // Animation variants for the planet
+        className={`flex-1 ${styles.flexCenter}`}
+      >
+        <img src='/whats-new.png' // Image source
+          alt='get-started'
+          className='w-[90%] h-[90%] object-contain'
+        />
+      </motion.div>
+      {/* Left column with an image */}
     </motion.div>
   </section>
 );
