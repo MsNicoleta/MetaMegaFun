@@ -53,10 +53,18 @@ const World = () => (
             alt='people'
             className=' object-cover  h-full w-full object-center  rounded-3xl'
           />
-          <p className="  absolute bottom-10 right-30 mr-5 font-bold text-[16px] leading-[30px] text-white">The Upside Down </p>
-          <div className='absolute top-1/2 left-[4%] w-[50px] h-[50px]  rounded-full bg-[#5d6680]'>
+          <p className="  absolute bottom-5 right-3 mr-5 font-bold text-[16px] leading-[30px] text-white">The Upside Down </p>
+
+          <div className='absolute top-1/2 left-20 w-[30px] h-[30px]  rounded-full bg-[#5d6680]'>
 
             <img src='people-01.png'
+              alt='people'
+              className='w-full h-full'
+            />
+          </div>
+          <div className='absolute top-1/2 -left-15 w-[30px] h-[30px]  rounded-full bg-[#5d6680]'>
+
+            <img src='people-02.png'
               alt='people'
               className='w-full h-full'
             />
