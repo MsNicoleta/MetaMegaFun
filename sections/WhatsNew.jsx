@@ -24,7 +24,7 @@ const WhatsNew = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| What's new  " /> {/* Typing animation */}
-        <TitleText title={<>What's new about MetaMegaFun</>} /> {/* Title text */}
+        <TitleText title={<>What's new about MetaMegaFun?</>} /> {/* Title text */}
         <div className='mt-[48px] flex flex-wrap justify-between gap-[24px]'>
           {newFeatures.map((feature) => (
             // Mapping over starting features to display them
