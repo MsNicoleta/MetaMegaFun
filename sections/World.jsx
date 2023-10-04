@@ -47,6 +47,22 @@ const World = () => (
             className='w-full h-full'
           />
         </div>
+        <div className='absolute top-60 left-40 w-[196px] h-[150px] p-[6px] rounded-lg bg-[#5d6680]'>
+
+          <img src='planet-02.png'
+            alt='people'
+            className=' object-cover  h-full w-full object-center  rounded'
+          />
+          <p className="  absolute bottom-10 right-30 mr-5 font-bold text-[16px] leading-[30px] text-white">The Upside Down </p>
+          <div className='absolute top-1/2 left-[4%] w-[50px] h-[50px]  rounded-full bg-[#5d6680]'>
+
+            <img src='people-01.png'
+              alt='people'
+              className='w-full h-full'
+            />
+          </div>
+
+        </div>
       </motion.div>
     </motion.div>
 
