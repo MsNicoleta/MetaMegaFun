@@ -8,7 +8,7 @@ import { newFeatures } from "../constants"; // Import constants
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`} >
-    What's new section
+
     {/* A container for motion animations */}
     <motion.div
       variants={staggerContainer} // Animation variants for staggering
