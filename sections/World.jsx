@@ -92,7 +92,7 @@ const World = () => (
             alt='planet'
             className='object-cover h-full w-full object-center rounded-2xl transform scale-100'
           />
-          <p className="absolute flex items-start bottom-5 right-5 font-bold text-[18px] leading-[30px] text-white">Hawkins Labs </p>
+          <p className="absolute flex items-start bottom-5 mr-6 right-5 font-bold text-[18px] leading-[30px] text-white">Hawkins Labs </p>
           <span className="">
             <p className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> +264 has joined </p>
             <div className='absolute top-1/2 ml-6 left-5 w-[24px] h-[24px] rounded-full] transform -translate-y-1/2'>
