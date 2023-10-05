@@ -53,7 +53,7 @@ const World = () => (
           <img
             src='planet-02.png'
             alt='planet'
-            className='object-cover h-full w-full object-center rounded-2xl transform scale-100'
+            className='object-cover object-right h-full w-full rounded-2xl transform scale-100'
           />
           <p className="absolute bottom-5 right-5 mr-2 font-bold text-[18px] leading-[30px] text-white">The Upside Down </p>
           <span className="">
@@ -90,8 +90,9 @@ const World = () => (
           <img
             src='planet-03.png'
             alt='planet'
-            className='object-cover h-full w-full object-center rounded-2xl transform scale-100'
+            className='object-cover object-center h-full w-full rounded-2xl transform scale-100 '
           />
+
           <p className="absolute flex items-start bottom-5 mr-6 right-5 font-bold text-[18px] leading-[30px] text-white">Hawkins Labs </p>
           <span className="">
             <p className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> +264 has joined </p>
