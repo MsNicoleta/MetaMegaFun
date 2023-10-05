@@ -30,7 +30,7 @@ const World = () => (
 
           <img src='people-01.png'
             alt='people'
-            className='w-full h-full'
+            className='w-full h-full  '
           />
         </div>
         <div className='absolute top-10 left-[10%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
@@ -49,28 +49,39 @@ const World = () => (
         </div>
         <div className='absolute top-60 left-40 w-[196px] h-[150px] p-[7px] rounded-3xl bg-[#5d6680] shadow-2xl shadow-lg shadow-fuchsia-600/50'>
 
-          <img src='planet-02.png'
-            alt='planer'
-            className=' object-cover   h-full w-full object-center  rounded-2xl '
+          <img
+            src='planet-02.png'
+            alt='planet'
+            className='object-cover h-full w-full object-center rounded-2xl transform scale-100'
           />
-          <p className="  absolute bottom-5 right-3 mr-5 font-bold text-[16px] leading-[30px] text-white">The Upside Down </p>
+          <p className="absolute bottom-5 right-3 mr-5 font-bold text-[16px] leading-[30px] text-white">The Upside Down </p>
+          <div relative>
+            <p className="absolute bottom-10 right-5 flex items-start  font-normal text-[8px] leading-[30px] text-white"> + 264 has joined </p>
+            <div className='absolute top-1/2 left-20 w-[30px] h-[30px] rounded-full bg-[#5d6680] transform -translate-y-1/2'>
+              <img
+                src='people-04.png'
+                alt='people'
+                className='w-full h-full rounded-full'
+              />
+            </div>
 
-          <div className='absolute top-1/2 left-20 w-[30px] h-[30px]  rounded-full bg-[#5d6680]'>
-
-            <img src='people-01.png'
-              alt='people'
-              className='w-full h-full'
-            />
+            <div className='absolute top-1/2 left-14 w-[30px] h-[30px] rounded-full bg-[#5d6680] transform -translate-y-1/2'>
+              <img
+                src='people-05.png'
+                alt='people'
+                className='w-full h-full rounded-full'
+              />
+            </div>
+            <div className='absolute top-1/2 left-8 w-[30px] h-[30px] rounded-full bg-[#5d6680] transform -translate-y-1/2'>
+              <img
+                src='people-06.png'
+                alt='people'
+                className='w-full h-full rounded-full'
+              />
+            </div>
           </div>
-          <div className='absolute top-1/2 -left-15 w-[30px] h-[30px]  rounded-full bg-[#5d6680]'>
-
-            <img src='people-02.png'
-              alt='people'
-              className='w-full h-full'
-            />
-          </div>
-
         </div>
+
       </motion.div>
     </motion.div>
 
