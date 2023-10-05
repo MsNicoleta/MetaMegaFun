@@ -26,7 +26,7 @@ const World = () => (
           alt='map'
           className='w-full h-full object-cover'
         />
-        <div className='absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+        <div className='absolute bottom-20 mb-4 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
 
           <img src='people-01.png'
             alt='people'
@@ -47,6 +47,7 @@ const World = () => (
             className='w-full h-full'
           />
         </div>
+        {/* The The Upside Down container start */}
         <div className='absolute top-60 left-40 w-[196px] h-[150px] p-[7px] rounded-3xl bg-[#5d6680] shadow-2xl shadow-lg shadow-fuchsia-600/50'>
 
           <img
@@ -54,33 +55,72 @@ const World = () => (
             alt='planet'
             className='object-cover h-full w-full object-center rounded-2xl transform scale-100'
           />
-          <p className="absolute bottom-5 right-3 mr-5 font-bold text-[16px] leading-[30px] text-white">The Upside Down </p>
-          <div relative>
-            <p className="absolute bottom-10 right-5 flex items-start  font-normal text-[8px] leading-[30px] text-white"> + 264 has joined </p>
-            <div className='absolute top-1/2 left-20 w-[30px] h-[30px] rounded-full bg-[#5d6680] transform -translate-y-1/2'>
+          <p className="absolute bottom-5 right-5 mr-2 font-bold text-[18px] leading-[30px] text-white">The Upside Down </p>
+          <span className="">
+            <p className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> + 264 has joined </p>
+            <div className='absolute top-1/2 ml-6 left-5 w-[24px] h-[24px] rounded-full] transform -translate-y-1/2'>
               <img
                 src='people-04.png'
                 alt='people'
-                className='w-full h-full rounded-full'
+                className='w-full h-full mt-4  rounded-full'
               />
             </div>
 
-            <div className='absolute top-1/2 left-14 w-[30px] h-[30px] rounded-full bg-[#5d6680] transform -translate-y-1/2'>
+            <div className='absolute top-1/2 ml-3 left-5 w-[24px] h-[24px] rounded-full transform -translate-y-1/2'>
               <img
                 src='people-05.png'
                 alt='people'
-                className='w-full h-full rounded-full'
+                className='w-full h-full  mt-4 rounded-full'
               />
             </div>
-            <div className='absolute top-1/2 left-8 w-[30px] h-[30px] rounded-full bg-[#5d6680] transform -translate-y-1/2'>
+            <div className='absolute top-1/2 left-5 w-[24px] h-[24px] rounded-full  transform -translate-y-1/2'>
               <img
                 src='people-06.png'
                 alt='people'
-                className='w-full h-full rounded-full'
+                className='w-full h-full  mt-4 rounded-full'
               />
             </div>
-          </div>
+          </span>
         </div>
+        {/* The The Upside Down container ends */}
+
+        {/* Hawkins Labs container start */}
+        <div className='absolute top-90 right-40 w-[196px] h-[150px] p-[7px] rounded-3xl bg-[#5d6680] shadow-2xl shadow-lg shadow-fuchsia-600/50'>
+
+          <img
+            src='planet-03.png'
+            alt='planet'
+            className='object-cover h-full w-full object-center rounded-2xl transform scale-100'
+          />
+          <p className="absolute flex items-start bottom-5 right-5 font-bold text-[18px] leading-[30px] text-white">Hawkins Labs </p>
+          <span className="">
+            <p className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> +264 has joined </p>
+            <div className='absolute top-1/2 ml-6 left-5 w-[24px] h-[24px] rounded-full] transform -translate-y-1/2'>
+              <img
+                src='people-04.png'
+                alt='people'
+                className='w-full h-full mt-4  rounded-full'
+              />
+            </div>
+
+            <div className='absolute top-1/2 ml-3 left-5 w-[24px] h-[24px] rounded-full transform -translate-y-1/2'>
+              <img
+                src='people-05.png'
+                alt='people'
+                className='w-full h-full  mt-4 rounded-full'
+              />
+            </div>
+            <div className='absolute top-1/2 left-5 w-[24px] h-[24px] rounded-full  transform -translate-y-1/2'>
+              <img
+                src='people-06.png'
+                alt='people'
+                className='w-full h-full  mt-4 rounded-full'
+              />
+            </div>
+          </span>
+        </div>
+        {/* Hawkins Labs container ends */}
+
 
       </motion.div>
     </motion.div>
