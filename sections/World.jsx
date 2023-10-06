@@ -20,20 +20,20 @@ const World = () => (
       <TitleText title={<>Track friends around you and invite them to play together in the same world</>} textStyles="text-center" />
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)} // Animation variants for fading in
-        className="relative mt-[68px] flex w-full h-[550px]"
+        className="relative mt-[80px] flex w-full h-[550px]"
       >
         <img src='/map.png'
           alt='map'
-          className='w-full h-full object-cover'
+          className='w-full h-full object-contain'
         />
-        <div className='absolute bottom-20 mb-4 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+        <div className='absolute bottom-20 mb-8 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
 
           <img src='people-01.png'
             alt='people'
             className='w-full h-full  '
           />
         </div>
-        <div className='absolute top-10 left-[10%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+        <div className='absolute top-10 mt-4 left-[10%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
 
           <img src='people-02.png'
             alt='people'
