@@ -1,9 +1,10 @@
 'use client';
-
-const InsightCard = () => (
+import { motion } from "framer-motion";
+import { fadeIn } from '../utils/motion';
+const InsightCard = (imgUrl) => (
   <div>
     Insight Card
   </div>
 );
 
-export default InsightCard;
+export default InsightCard, TitleText, subtitle
