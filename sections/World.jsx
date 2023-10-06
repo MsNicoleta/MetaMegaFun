@@ -51,9 +51,9 @@ const World = () => (
         <div className='absolute top-60 left-40 w-[196px] h-[150px] p-[7px] rounded-3xl bg-[#5d6680] shadow-2xl shadow-lg shadow-fuchsia-600/50'>
 
           <img
-            src='planet-02.png'
+            src='planet-002.png'
             alt='planet'
-            className='object-cover object-right h-full w-full rounded-2xl transform scale-100'
+            className='object-cover object-bottom h-full w-full rounded-2xl transform scale-100'
           />
           <p className="absolute bottom-5 right-5 mr-2 font-bold text-[18px] leading-[30px] text-white">The Upside Down </p>
           <span className="">
@@ -88,9 +88,9 @@ const World = () => (
         <div className='absolute top-90 right-40 w-[196px] h-[150px] p-[7px] rounded-3xl bg-[#5d6680] shadow-2xl shadow-lg shadow-fuchsia-600/50'>
 
           <img
-            src='planet-03.png'
+            src='planet-003.png'
             alt='planet'
-            className='object-cover object-center h-full w-full rounded-2xl transform scale-100 '
+            className='object-cover object-right h-full w-full rounded-2xl transform scale-100 '
           />
 
           <p className="absolute flex items-start bottom-5 mr-6 right-5 font-bold text-[18px] leading-[30px] text-white">Hawkins Labs </p>
