@@ -1,5 +1,7 @@
 // Import necessary modules and components
+
 'use client';
+
 // Comment: This comment explains the purpose of the 'use client' comment, which indicates that this is a client-side component.
 
 import { motion } from 'framer-motion'; // Import animations from Framer Motion library

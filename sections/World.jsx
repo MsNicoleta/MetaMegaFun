@@ -55,9 +55,9 @@ const World = () => (
             alt='planet'
             className='object-cover object-bottom h-full w-full rounded-2xl transform scale-100'
           />
-          <p className="absolute bottom-5 right-5 mr-2 font-bold text-[18px] leading-[30px] text-white">The Upside Down </p>
+          <div className="absolute bottom-5 right-5 mr-2 font-bold text-[18px] leading-[30px] text-white">The Upside Down </div>
           <span className="">
-            <p className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> + 264 has joined </p>
+            <div className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> + 264 has joined </div>
             <div className='absolute top-1/2 ml-6 left-5 w-[24px] h-[24px] rounded-full] transform -translate-y-1/2'>
               <img
                 src='people-04.png'
@@ -93,9 +93,9 @@ const World = () => (
             className='object-cover object-right h-full w-full rounded-2xl transform scale-100 '
           />
 
-          <p className="absolute flex items-start bottom-5 mr-6 right-5 font-bold text-[18px] leading-[30px] text-white">Hawkins Labs </p>
+          <div className="absolute flex items-start bottom-5 mr-6 right-5 font-bold text-[18px] leading-[30px] text-white">Hawkins Labs </div>
           <span className="">
-            <p className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> +264 has joined </p>
+            <div className="absolute top-1/2  right-8 flex items-start  font-normal text-[12px] leading-[30px] text-white"> +264 has joined </div>
             <div className='absolute top-1/2 ml-6 left-5 w-[24px] h-[24px] rounded-full] transform -translate-y-1/2'>
               <img
                 src='people-04.png'

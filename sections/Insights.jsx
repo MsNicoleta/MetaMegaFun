@@ -14,14 +14,14 @@ const Insights = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} flex mx-auto flex-col`}
+      className={`${styles.innerWidth} flex mx-auto flex-col items-center`}
     >
       <TypingText title="| Insight"
         textStyles="text-center" />
 
       <TitleText title="Insight about MetaMegaFun"
         textStyles="text-center" />
-      <div className="mt-[50px] flex lg:flex-row flex-col gap-[30px] min-h-[70vh] ]">
+      <div className="mt-[50px] flex flex-row flex-col gap-[30px] min-h-[70vh] ]">
         {insights.map((insight, index) => (
           <InsightCard key={`insight- ${index}`}{...insight} index={index + 1}
             {...insight}
