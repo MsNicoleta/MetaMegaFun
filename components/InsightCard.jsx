@@ -11,16 +11,23 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
     <img
       src={imgUrl}
       alt="planet-01"
-      className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
+      className="md:w-[270px] h-[250px] w-[45%]  rounded-[32px] object-cover"
     />
     <div className="w-full flex justify-between items-center">
-      <div className="flex-1 md:ml-[62px] flex flex-col max-w-[500px]">
+      <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
         <h4 className=" font-normal lg:text-[42px] text-[26px] text-white">
           {title}
         </h4>
         <div className=" mt-[16px] font-normal lg:text-[20px] text[14px] text-secondary-white">
           {subtitle}
         </div>
+      </div>
+      <div className="lg:flex hidden w-[100px] h-[100px] items-center justify-center  bg-transparent border-[2px] border-white rounded-full">
+        <img
+          src='arrow.svg'
+          alt='arrow'
+          className='w-[40%] h-[40%] object-contain'
+        />
       </div>
     </div>
   </motion.div>
