@@ -6,15 +6,15 @@ import { fadeIn } from '../utils/motion';
 const InsightCard = ({ imgUrl, title, subtitle, index }) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
-    className="flex flex-row gap-4 ml-[3rem]"
+    className="flex flex-col md:flex-row  gap-4 ml-[3rem] mr-[3rem]"
   >
     <img
       src={imgUrl}
       alt="planet-01"
-      className="md:w-[270px] h-[250px] w-[45%]  rounded-[32px] object-cover"
+      className="md:w-[270px] h-[250px] w-full  rounded-[32px] object-cover"
     />
     <div className="w-full flex justify-between items-center">
-      <div className="flex-1 md:ml-[62px] md:mr-[3rem] flex flex-col max-w-[650px]">
+      <div className="flex-1 md:ml-[62px] md:m-[3rem] flex flex-col max-w-[850px]">
         <h4 className=" font-normal lg:text-[42px] text-[26px] text-white">
           {title}
         </h4>
