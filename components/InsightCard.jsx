@@ -6,7 +6,7 @@ import { fadeIn } from '../utils/motion';
 const InsightCard = ({ imgUrl, title, subtitle, index }) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
-    className="flex flex-row gap-4"
+    className="flex flex-row gap-4 ml-[3rem]"
   >
     <img
       src={imgUrl}
@@ -14,7 +14,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       className="md:w-[270px] h-[250px] w-[45%]  rounded-[32px] object-cover"
     />
     <div className="w-full flex justify-between items-center">
-      <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+      <div className="flex-1 md:ml-[62px] md:mr-[3rem] flex flex-col max-w-[650px]">
         <h4 className=" font-normal lg:text-[42px] text-[26px] text-white">
           {title}
         </h4>
@@ -22,7 +22,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
           {subtitle}
         </div>
       </div>
-      <div className="lg:flex hidden w-[100px] h-[100px] items-center justify-center  bg-transparent border-[2px] border-white rounded-full">
+      <div className=" md:m-[2rem] lg:flex hidden w-[100px] h-[100px] items-center justify-center  bg-transparent border-[2px] border-white rounded-full">
         <img
           src='arrow.svg'
           alt='arrow'
