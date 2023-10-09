@@ -14,9 +14,28 @@ const Footer = () => (
   >
     <div className='footer-gradient' />
 
-    <div className={`${styles.innerWidth} mx-auto flex  flex-col  gap-8`}>
+    <div className={`${styles.innerWidth} mx-auto flex  flex-col mt-[7rem]  gap-8`}>
       <div className='flex justify-between items-center flex-wrap gap-5'>
-        <h4 className='font-bold md:text-[64px] text-[44px] text-white ml-[3rem]' >Enter the Metaverse </h4>
+        <h4 className='font-bold md:text-[64px] text-[44px] text-white xl:ml-[3rem] ml-[0rem] lg:pl-[10px]' >Enter the Metaverse </h4>
+
+        <button className='flex items-center h-fit px-6 py-4 bg-[#25618b] rounded-[32px] gap-[12px mr-[3rem]'>
+          <img
+            src='/headset.svg'
+            alt='headset'
+            className=' w-[24px] h-[24px]  mr-[15px] object-contain' />
+          <span className='font-normal text-[16px] text-white'>ENTER METAMEGAVERSE</span>
+        </button>
+      </div>
+      <div className="flex flex-col">
+        {/* <hr className='border-[#25618b] ' /> */}
+
+        <div className='mb-[50px] h-[1px] bg-white opacity-10' />
+        <div className='flex items-center justify-between flex-wrap gap-4'>
+          <h4 className='font-extrabold text-[24px] text-white opacity-50'>
+            Metaversus
+          </h4>
+          <div className='font-normal text-[14px]'></div>
+        </div>
       </div>
     </div>
   </motion.footer>
