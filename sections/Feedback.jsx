@@ -12,11 +12,11 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} flex mx-auto lg:flex-row flex-col gap-6`}
+      className={`${styles.innerWidth} flex mx-auto lg:flex-row flex-col gap-6 mt-[5rem]`}
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end  flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative ml-[3rem] mr-[3rem]"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-end  flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative  ml-[3rem] lg:mr-[3px] mr-[3rem] "
       >
         <div className="feedback-gradient" />
         <div>
@@ -27,7 +27,7 @@ const Feedback = () => (
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="flex-1  flex justify-center  rounded-[32px] relative ml-[0.5rem] mr-[3rem]"
+        className="flex-1  flex justify-center  rounded-[32px] relative lg:ml-[3px] ml-[3rem] ml-[3rem] mr-[3rem]"
       >
         <img
           src='/planet-09.png'
@@ -36,7 +36,7 @@ const Feedback = () => (
         />
         <motion.div
           variations={zoomIn(0.4, 1)}
-          className="lg:block hidden absolute -left-[10%] top-[3%]"
+          className="lg:block hidden absolute -left-[12%] top-[10%]"
         >
           <img
             src="/stamp.png"
