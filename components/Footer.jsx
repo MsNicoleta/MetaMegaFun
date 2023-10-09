@@ -34,7 +34,19 @@ const Footer = () => (
           <h4 className='font-extrabold text-[24px] text-white opacity-50'>
             Metaversus
           </h4>
-          <div className='font-normal text-[14px]'></div>
+          <div className='font-normal text-[14px] text-white opacity-50'>
+            Copyright © 2021 - 2022 Metaversus. All rights reserved.
+          </div>
+          <div className='flex gap-4'>
+            {socials.map((socials) => (
+              <img
+                key={socials.name}
+                src={socials.url}
+                alt={socials.name}
+                className='w-[24px] h-[24px] object-contain cursor-pointer'
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
