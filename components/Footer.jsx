@@ -12,7 +12,13 @@ const Footer = () => (
     whileInView="show" // Animate when the component is in view
     className={`${styles.xPaddings} py-8 relative`} // Apply CSS classes for styling
   >
-    footer
+    <div className='footer-gradient' />
+
+    <div className={`${styles.innerWidth} mx-auto flex  flex-col  gap-8`}>
+      <div className='flex justify-between items-center flex-wrap gap-5'>
+        <h4 className='font-bold md:text-[64px] text-[44px] text-white ml-[3rem]' >Enter the Metaverse </h4>
+      </div>
+    </div>
   </motion.footer>
 );
 
